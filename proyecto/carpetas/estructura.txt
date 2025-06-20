@@ -1,0 +1,24 @@
+heladera_inteligente/
+|
+servicios/
+├── api_recetas.py         # Lógica para conectarse a APIs externas
+├── ia_recetas.py          # Lógica para generar recetas con IA
+│
+├── ingredientes/
+│   └── ingrediente.py
+│
+├── recetas/
+│   ├── receta.py
+│   └── ingrediente_receta.py
+│
+├── usuario/
+│   └── usuario.py
+│
+├── sistema/
+│   └── heladera.py
+│
+├── tests/
+│   └── test_heladera.py
+│
+├── main.py
+└── README.md
